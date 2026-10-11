@@ -1,25 +1,22 @@
-# Kárákátà Watches
+# Kárákátà Watch Store — Starter Web App
 
-A mobile-first luxury watch storefront built with plain HTML, CSS, and JavaScript.
+A responsive front-end implementation based on the supplied Figma screenshot.
 
-## Local preview
+## Run it
+1. Extract the ZIP.
+2. Open `index.html` in a modern browser. For best results, use VS Code with the Live Server extension.
 
-Open `index.html` directly in a browser, or run:
+## Included
+- Product discovery, categories and search
+- Watch detail page and size selection
+- Wishlist saved in browser localStorage
+- Cart quantities, removal and totals (saved in browser localStorage)
+- Login and registration form layouts with validation
+- Checkout form and demo order confirmation
+- Demo order tracking and profile screen
+- Responsive desktop and mobile layouts
 
-```bash
-python -m http.server 3000
-```
+## Important limitations
+This is a working front-end prototype, not a production commerce system. Login/registration do not create real accounts, payments are not processed, tracking is not live, and the profile is sample content. Production use needs a secure backend, database, authentication, payment-provider integration, and a real shipping/tracking service. Do not enter real card details into this demo.
 
-Then visit http://localhost:3000
-
-## GitHub Pages deployment
-
-1. Push this repository to GitHub.
-2. In the GitHub repo, go to Settings → Pages.
-3. Set the source to `Deploy from a branch`.
-4. Choose the `main` branch and the `/ (root)` folder.
-5. Save.
-6. GitHub will give you a live URL like:
-   `https://your-username.github.io/your-repository-name/`
-
-This app is static and works well with GitHub Pages without a build step.
+Product names, prices, and the logo are illustrative approximations from the screenshot. Replace them with the final approved product data and brand assets.
